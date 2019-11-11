@@ -1,0 +1,117 @@
+@font-face {
+  font-family: Gotham-RoundedBold;
+  src: local ('Gotham-RoundedBold')
+  url(/fonts/Gotham-Rounded/GothamRoundedBold_21016.ttf)
+}
+  
+
+*{
+  margin: 0px;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  min-height: 8vh;
+  background-color: rgb(255, 255, 255);
+  font-family: "Gotham RoundedBild", sans-serif;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo h1 {
+  color: #8619e6; 
+  font-size: 20px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.nav-links {
+  margin-right: 5%;
+  display: flex;
+  background-color: none;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links a{
+  color: 	#A9A9A9;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+
+
+
+.jumbotron {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: fixed;
+}
+
+.row {
+  margin-left: 20%;
+}
+
+
+.content {
+  padding-top: 14%;
+  color: #fff;
+}
+
+.content h2 {
+  margin-right: 35%;
+  font-family: "Gotham RoundedBild", sans-serif;
+}
+
+.content p{
+  margin-right: 35%;
+  font-family: "Gotham RoundedBild", sans-serif;
+}
+
+.formbox {
+  margin-left: 5%;
+  margin-right: 10%;
+  padding-top: 10%;
+  background-color: #fff;
+  border-radius: 5%;
+  font-family: "Gotham RoundedBild", sans-serif;
+}
+
+.try {
+  font-family: "Gotham RoundedBild", sans-serif;
+  text-align: center;
+}
+
+.button {
+  padding: 3%;
+  margin-left: 17%;
+  border-radius: 5%;
+  border-color: #8619e6;
+  border-style: solid;
+}
+
+.p2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkgray;
+}
+

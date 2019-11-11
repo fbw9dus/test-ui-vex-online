@@ -19,14 +19,29 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   20/60 Punkten
 #### Punktabzüge für:
-- [_] (10) Elemente passen sich nicht an Fensterbreite an
+- [x] (10) Elemente passen sich nicht an Fensterbreite an
+```diff
+- Die Text-Blöcke im Jumbotron werden bei manchen Fendtergrößen zu schmal
+```
 - [_] (10) Tags nicht geschlossen oder falsch verschachtelt
 - [_] (5) Block-Tag in Inline-Tag
 - [_] (5) Kinder-Tags im Code nicht eingerückt
-- [_] (10) Zweckfremde Tags verwendet
+- [x] (10) Zweckfremde Tags verwendet
+```diff
+- Die verwendeten Bootstrap-Klassen lassen die 
+```
 - [_] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
-- [_] (5) Falsche Datei-Pfade
-- [_] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
-- [_] (5) Fehlende essentielle Tag-Attribute
+- [x] (5) Falsche Datei-Pfade
+```diff
+- Die style.css und die Bilder werden nicht geladen
+```
+- [x] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
+```diff
+- Die Verwendung von Inline-CSS für den button ist unnötig
+```
+- [x] (5) Fehlende essentielle Tag-Attribute
+```diff
+- img tag hat kein alt-Attribut
+```
